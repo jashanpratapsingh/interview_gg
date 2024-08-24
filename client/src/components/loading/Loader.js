@@ -43,8 +43,12 @@ async function connectWallet() {
 const Loader = () => (
   <>
     {/* <img className="spinner-circles" src={spinner} /> */}
-    <button>Connect Wallet</button>
-    <h3>Wallet Address: 0xaaaa.....ccccc</h3>
+    <button
+        // onClick={requestAccount}
+        className='button_main'
+        
+        >Request Account</button>
+        <h3>Wallet Address: something</h3>
   </>
 );
 
